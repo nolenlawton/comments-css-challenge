@@ -1,0 +1,72 @@
+body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(223, 19%, 93%);
+}
+
+.comment {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(211, 10%, 45%);
+    border-radius: 8px;
+}
+
+.pfp {
+    margin-top: 0;
+    border-radius: 12px;
+    margin-right: 16px;
+}
+
+.votes {
+    margin: auto;
+    background-color: hsl(223, 19%, 93%);
+    color: hsl(238, 40%, 52%);
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.commentTop {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.date{
+    color: hsl(211, 10%, 45%);
+    margin-left: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.user {
+    color: hsl(238, 40%, 52%);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    height: 30px;
+}
+
+.repliedComment {
+    margin-bottom: 10px;
+}
+
+.arrow {
+    color: hsl(211, 10%, 45%);
+    margin: 4px;
+}
+
+.number {
+    text-align: center;
+}
+
+.arrow, .user, .pfp {
+    cursor: pointer
+}
